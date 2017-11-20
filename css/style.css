@@ -1,16 +1,11 @@
 body {
     font-family: 'Jaldi', sans-serif;
-    /* font-family: 'Patrick Hand SC', cursive; */
     color: #5e5e5e;
     margin: 10px auto;
     font-size: 16px;
     font-weight: 300;
     line-height: 35px;
-    letter-spacing: 3px;
-    /* background: #3a3939; */
-    /* background: #ffcab8; */
-    /* background: rgba(0,0,0,0.02) !important; */
-    /*text-shadow: 0 0 1px #cccccc;*/
+    letter-spacing: 1px;
 }
 
 .center {
@@ -41,16 +36,6 @@ name.white {
     color: white;
     text-shadow: -1px -1px 1px #dc9090;
 }
-
-/* name:after {
-    content: " ";
-    width: 50px;
-    height: 1px;
-    background: #f1273c;
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-} */
 
 myname {
     font-family: 'Patrick Hand SC', cursive;
@@ -91,9 +76,7 @@ contact {
 .three {
     grid-column: 1 / 2;
     grid-row: 3;
-    /* background: #fbe2da; */
     padding: 50px;
-    /* color:#009688; */
     text-decoration: overline;
     text-decoration-color:#dad4d4;
 }
@@ -101,7 +84,6 @@ contact {
 .four {
     grid-column: 2 / 3;
     grid-row: 3;
-    /* background: #FFCAB9; */
     padding: 50px;
     text-decoration: overline;
     text-decoration-color:#dad4d4;
@@ -110,7 +92,6 @@ contact {
     grid-column: 3/5;
     grid-row: 3;
     padding: 50px;
-    /* background: #ffa88d; */
     text-decoration: overline;
     text-decoration-color: #dad4d4;
 }
